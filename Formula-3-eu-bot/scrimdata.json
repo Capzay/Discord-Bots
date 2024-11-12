@@ -1,0 +1,54 @@
+{
+  "Monday": {
+    "Can Play": {
+    },
+    "Cant Play": {
+    },
+    "Unsure": {}
+  },
+  "Tuesday": {
+    "Can Play": {
+    },
+    "Cant Play": {
+    },
+    "Unsure": {}
+  },
+  "Wednesday": {
+    "Can Play": {
+    },
+    "Cant Play": {
+    },
+    "Unsure": {
+    }
+  },
+  "Thursday": {
+    "Can Play": {
+    },
+    "Cant Play": {
+    },
+    "Unsure": {
+    }
+  },
+  "Friday": {
+    "Can Play": {
+    },
+    "Cant Play": {},
+    "Unsure": {
+    }
+  },
+  "Saturday": {
+    "Can Play": {
+    },
+    "Cant Play": {},
+    "Unsure": {
+    }
+  },
+  "Sunday": {
+    "Can Play": {
+    },
+    "Cant Play": {
+    },
+    "Unsure": {
+    }
+  }
+}

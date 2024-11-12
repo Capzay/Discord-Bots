@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Input Form</title>
+    <link rel="stylesheet" href="scrims.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Enter Map Details</h1>
+      <form id="mapForm" class="form">
+        <input
+          type="text"
+          id="Team"
+          placeholder="Team"
+          required
+          class="input-field"
+        /><br />
+        <label for="mapCount">How many maps have happened?</label>
+        <select id="mapCount" class="input-field" required>
+          <option value="" disabled selected>Select number of maps</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <div id="mapInputsContainer" class="map-inputs"></div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="scrims.js"></script>
+  </body>
+</html>

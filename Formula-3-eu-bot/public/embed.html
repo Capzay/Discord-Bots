@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Send Message</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Organise a Scrim</h1>
+      <form id="messageForm" class="form">
+        <input
+          type="text"
+          id="Team"
+          placeholder="Team (Or Clear)"
+          required
+          class="input-field"
+        /><br />
+        <input
+          type="text"
+          id="Date"
+          placeholder="Date"
+          required
+          class="input-field"
+        /><br />
+        <input
+          type="text"
+          id="Time"
+          placeholder="Time"
+          required
+          class="input-field"
+        /><br />
+      </form>
+      <div class="day-buttons">
+        <button class="day-button" data-day="Monday">Monday</button>
+        <button class="day-button" data-day="Tuesday">Tuesday</button>
+        <button class="day-button" data-day="Wednesday">Wednesday</button>
+        <button class="day-button" data-day="Thursday">Thursday</button>
+        <button class="day-button" data-day="Friday">Friday</button>
+        <button class="day-button" data-day="Saturday">Saturday</button>
+        <button class="day-button" data-day="Sunday">Sunday</button>
+      </div>
+      <p id="output" class="output"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
