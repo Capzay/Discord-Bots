@@ -45,9 +45,9 @@ module.exports = {
   },
   async execute(interaction) {
     if (
-      interaction.user.id != "548485928008810533" &&
-      interaction.user.id != "818147738133987369" &&
-      interaction.user.id != "839483514998226956"
+      interaction.user.id != "USER_ID" &&
+      interaction.user.id != "USER_ID" &&
+      interaction.user.id != "USER_ID"
     ) {
       return;
     }

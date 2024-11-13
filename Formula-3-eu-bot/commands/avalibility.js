@@ -23,7 +23,7 @@ module.exports = {
     description: "Scrim stuff",
   },
   async execute(interaction) {
-    if (interaction.user.id != "548485928008810533") {
+    if (interaction.user.id != "USER_ID") {
       await interaction.editReply({
         content: "You cant use this",
         ephemeral: true,

@@ -56,9 +56,9 @@ module.exports = {
         console.log("ID already exists");
       } else {
         if (
-          interaction.user.id != "548485928008810533" &&
-          interaction.user.id != "818147738133987369" &&
-          interaction.user.id != "1147174984838566000"
+          interaction.user.id != "USER_ID" &&
+          interaction.user.id != "USER_ID" &&
+          interaction.user.id != "USER_ID"
         ) {
           await interaction.editReply({
             content: "You cant use this",
