@@ -19,7 +19,7 @@ const path = require("path");
 
 module.exports = {
   data: {
-    name: "rah",
+    name: "avalibility",
     description: "Scrim stuff",
   },
   async execute(interaction) {
